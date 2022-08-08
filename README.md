@@ -8,3 +8,7 @@ MSc thesis template for Shiraz Art University with XePersian package. You can cu
 \newcommand{\examinerSecondLatin}{Dr. Examiner #02}
 ```
 You can leave them blank if you don't want them in thesis cover.
+
+
+<https://www.researchgate.net/publication/345526810_The_essential_role_of_museums_in_biodiversity_conservation>
+<https://www.researchgate.net/publication/283620793_brrsy_jaygah_mwzh_hay_tarykh_tbyy_dr_frhngsazy_zyst_mhyty>
