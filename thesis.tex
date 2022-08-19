@@ -27,6 +27,23 @@
 % mathematic package...
 \usepackage {amsmath}
 
+
+% for tables
+\usepackage[utf8]{inputenc}
+\usepackage{fourier} 
+\usepackage{array}
+\usepackage{makecell}
+
+% \renewcommand{\cellalign}{vh}
+% \renewcommand{\theadalign}{vh}
+
+\renewcommand\theadalign{bc}
+\renewcommand\theadfont{\bfseries}
+\renewcommand\theadgape{\Gape[4pt]}
+\renewcommand\cellgape{\Gape[4pt]}
+
+
+
 % define color for table...
 \usepackage [table] {xcolor}
 \definecolor {gray} {rgb} {.4, .4, .4}
@@ -72,20 +89,22 @@
 ] {tocbibind}
 
 % pushes the footnote to the bottom of the page...
-\usepackage [bottom] {footmisc}
+\usepackage[bottom]{footmisc}
 
 % import the xepersian package...
-\usepackage {xepersian}
+\usepackage{xepersian}
 
 % root directory for images...
-\graphicspath {{images/}}
+\graphicspath{{images/}}
 
 % make the normal pages header...
 \pagestyle {fancy}
-% page number at the left side of header...
-\lhead {\thepage}
+% empty the left side of header...
+\lhead{}
 % chapter title at the right side of header...
-\rhead {\leftmark}
+\rhead{\leftmark}
+
+\rightfootnoterule
 
 % override the references section title name...
 \renewcommand\bibname{فهرست مراجع}
